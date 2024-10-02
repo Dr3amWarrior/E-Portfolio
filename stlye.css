@@ -78,7 +78,7 @@ li {
 .row {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 36px auto;
 }
 
 .text--purple {
@@ -208,7 +208,7 @@ nav {
     width: 75%;
     margin: 0 auto;
     border-radius: 2.5%;
-    box-shadow: 0 8px 16px;
+    box-shadow: 0 12px 50px;
 }
 
 /* ABOUT ME CONTAINER */
@@ -265,17 +265,24 @@ nav {
 
 /* PROJECT CONTAINER */
 
-.project__list {
+#projects {
+  box-sizing: border-box;
+  margin-top: 36px 0 ;
+}
+
+.project__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .project__img {
-  width: 75%;
+  width: 95%;
   margin: 32px auto;
   border-radius: 2.5%;
-  box-shadow: 0 8px 16px;
+  box-shadow: 0 12px 50px;
   display: flex;
+  overflow: hidden;
 }
 
 
@@ -287,6 +294,7 @@ nav {
 #footer {
     background-color: #35312c;
 }
+
 
 
 /* FOOTER CONTAINER */
